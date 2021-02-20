@@ -1,0 +1,14 @@
+@media only screen and (max-width:600px){
+    header{
+        flex-direction: row;
+    }
+    header p{
+        font-size: small;
+    }
+    #main{
+        padding: 80px 15px;
+    }
+    nav{
+       width: 0;
+    }
+}

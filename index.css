@@ -1,0 +1,129 @@
+@import url('https://fonts.googleapis.com/css2?family=Lexend+Mega&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+body{
+    
+    height: 100%;
+    font-family: 'Lexend Mega', sans-serif;
+    display: flex;
+}
+
+header{
+    display: flex;
+    flex-direction: row-reverse;
+    align-items: center;
+    height: 8vh;
+    background-color: #E7ECEF;
+    padding: 5px;
+    position: absolute;
+    width: 100vw;
+    box-shadow: 2px 0 4px rgba(10,10,10,0.5);
+}
+header .menuDiv{
+    margin: auto 15px;
+}
+
+.menuDiv{
+    background-color: rgb(100, 198, 237);
+    cursor: pointer;
+    padding: 0 5px;
+    border-radius: 25px;
+}
+
+nav{
+    width: 0;
+    background-color: #40cbcf;
+    /* transform: translateX(-200px);  */
+    
+    display: flex;
+    padding-top: 50px;
+    justify-content: center;
+    transition: all 0.3s ease;
+}
+nav li{
+    list-style-type: none;
+    padding: 20px;
+    text-align: center;
+    transition: all 0.3s ease;
+}
+nav a{
+    width: 200px;
+    text-decoration: none;
+    
+}
+nav ul{
+    background-color: #40cbcf;
+    height: 100%;
+    width: 300px;
+    
+    
+}
+
+nav ul li a{
+    color: floralwhite;
+    
+    
+}
+
+nav ul li:hover{
+    background-color: #60a8ba;
+}
+nav ul li:hover i{
+    color: rgb(14, 57, 136);
+}
+
+.bar1, .bar2, .bar3{
+    width: 35px;
+    height: 5px;
+    background-color: black;
+    margin: 6px 0;
+    transition: 0.4s;
+
+}
+
+.change .bar2{
+    opacity: 0;
+}
+
+.change .bar1{
+    transform: rotate(-45deg) translate(-10px, 8px);
+}
+
+.change .bar3{
+    transform: rotate(45deg) translate(-7px, -7px);
+}
+
+#main{
+    background-color: #E7ECEF;
+    width: 100%;
+    padding: 100px 50px;
+    height: 100%;
+}
+p{
+    padding: 10px;
+    font-size: 120%;
+}
+
+#main ul,ol{
+    padding: 20px;
+}
+
+table{
+    width: 100%;
+}
+
+table thead{
+    background-color: darkseagreen;
+}
+
+iframe{
+    margin: 20px auto;
+  
+}
+
